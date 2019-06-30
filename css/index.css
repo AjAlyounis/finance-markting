@@ -1,0 +1,377 @@
+.content-box-percentage .percentage-box {
+  text-align: center;
+  padding-top: 100px;
+}
+@media (max-width: 500px) {
+  .content-box-percentage .percentage-box {
+    width: 100%;
+    height: 250px;
+  }
+}
+.content-box-percentage .percentage {
+  font-size: 5rem;
+  color: #4C76B0;
+}
+.content-box-percentage h3 {
+  margin-top: 10px;
+  color: #818181;
+  font-size: 1.2rem;
+}
+.client-feed-back {
+  margin-top: 50px;
+  width: 100%;
+  height: 280px;
+  background: #F9F9F9;
+  padding-top: 100px;
+}
+.client-feed-back h1 {
+  text-align: center;
+  font-size: 2.2rem;
+}
+.client-feed-back .divider-feedback {
+  width: 100px;
+  height: 2px;
+  background: #223E64;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+/*------------------------------------*\
+RESET
+\*------------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0b1 | 201101 
+NOTE:WORK IN PROGRESS
+USE WITH CAUTION AND TEST WITH ABANDON */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: ’’;
+  content: none;
+}
+ins {
+  text-decoration: none;
+}
+del {
+  text-decoration: line-through;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.navbar {
+  background: #17A2B8;
+  color: #17A2B8;
+  height: 90px;
+}
+.bg {
+  width: 100%;
+  height: 670px;
+  background-image: url('../Images/home_finance_slider_bg.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg h1 {
+  color: #ffffff;
+  font-size: 2.5rem;
+}
+@media (max-width: 500px) {
+  .bg h1 {
+    font-size: 2rem;
+  }
+}
+.bg h1 span {
+  color: #2CF9F2;
+}
+.owl-item {
+  margin-top: 50px;
+}
+.bg {
+  width: 100%;
+  height: 670px;
+  background-image: url('../Images/home_finance_slider_bg.jpg');
+  background-position: 50%  50%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg h1 {
+  color: #ffffff;
+  font-size: 2.5rem;
+}
+@media (max-width: 500px) {
+  .bg h1 {
+    font-size: 2rem;
+  }
+}
+.bg h1 span {
+  color: #2CF9F2;
+}
+.owl-item {
+  margin-top: 50px;
+}
+.section-2 {
+  margin-top: 100px;
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 500px) {
+  .wrap {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+.cloud {
+  width: 100%;
+  height: 400px;
+}
+.cloud h1 {
+  font-size: 2.5rem;
+  color: #2d2d2d;
+}
+.cloud .divider {
+  width: 100px;
+  height: 2px;
+  background: #1E3D63;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.cloud p {
+  color: #808080;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+.cloud #btn-learn {
+  margin-top: 30px;
+  width: 10rem;
+  height: 40px;
+  padding: 5px;
+  border-radius: 20px;
+  background: #2BDDCD;
+  font-size: 1rem;
+  color: white;
+  border: none;
+}
+@media (max-width: 500px) {
+  .graph {
+    width: 90%;
+    height: 300px;
+  }
+  .graph img {
+    width: 100%;
+  }
+}
+.service h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #2d2d2d;
+}
+.service .divider-service {
+  width: 20%;
+  height: 2px;
+  background: #1E3D63;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.service p {
+  color: #808080;
+  line-height: 30px;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+@media (max-width: 500px) {
+  .services {
+    width: 100%;
+    height: 310px;
+    margin: 0 auto;
+    background: #F9F9F9;
+  }
+}
+.services .icon {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+.services .fa-globe,
+.services .fa-gem,
+.services .fa-chart-line {
+  margin-top: 20px;
+  font-size: 65px;
+  color: #4D76AA;
+}
+.services h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #2d2d2d;
+}
+.services p {
+  margin-top: 25px;
+  width: 84%;
+  margin: 0 auto;
+  margin-top: 20px;
+  color: #808080;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+#learn-more {
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+  background: #2BDDCD;
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 50px;
+}
+.hover {
+  width: 100%;
+  height: auto;
+}
+.hover:hover {
+  color: #2CF9F2;
+}
+.middle-bg {
+  width: 100%;
+  height: 292px;
+  background-image: url('../Images/counters-bg-image.webp');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.middle-bg h3 {
+  color: #ffffff;
+  margin-top: 40px;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+.middle-bg h1 {
+  font-size: 2.4rem;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.middle-bg #btn-learn {
+  width: 10rem;
+  height: 40px;
+  padding: 5px;
+  border-radius: 20px;
+  background: #2BDDCD;
+  font-size: 1rem;
+  color: white;
+  border: none;
+}
