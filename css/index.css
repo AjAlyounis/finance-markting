@@ -359,10 +359,14 @@ table {
 }
 .client-feed-back {
   margin-top: 50px;
-  width: 100%;
-  height: 280px;
   background: #F9F9F9;
   padding-top: 100px;
+}
+@media (max-width: 500px) {
+  .client-feed-back {
+    width: 100%;
+    height: 280px;
+  }
 }
 .client-feed-back h1 {
   text-align: center;
@@ -382,9 +386,65 @@ table {
 }
 .client-logo .logo-box {
   width: 300px;
-  height: 300px;
+  height: 100px;
   margin: 0 auto;
 }
 .client-logo .logo-box img {
   width: 100%;
+}
+.client-logo p {
+  color: #9AA2AC;
+  line-height: 30px;
+  font-size: 1.3rem;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+.client-logo .creative {
+  width: 100%;
+  height: 110px;
+  border: 1px solid #EBEBEB;
+  text-align: center;
+  padding-top: 20px;
+}
+.client-logo .creative h1 {
+  margin-bottom: 10px;
+  color: #2D2D2D;
+  font-weight: bold;
+}
+.client-logo .creative h3 {
+  color: #969595;
+}
+.bottom-bg {
+  margin-top: 40px;
+  width: 100%;
+  height: 490px;
+  background-image: url('../Images/ready_to_talk_cta_bg.jpg');
+  background-size: cover;
+  text-align: center;
+  padding-top: 100px;
+}
+.bottom-bg h1 {
+  font-size: 45px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.bottom-bg h3 {
+  color: #919AA6;
+  line-height: 35px;
+  font-size: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+.bottom-bg #btn-talk {
+  margin-top: 40px;
+  width: 10rem;
+  height: 40px;
+  padding: 5px;
+  border-radius: 20px;
+  background: #2BDDCD;
+  font-size: 1rem;
+  color: white;
+  border: none;
 }
