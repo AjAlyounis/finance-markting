@@ -163,6 +163,38 @@ table {
 .owl-item {
   margin-top: 50px;
 }
+.recent-post {
+  width: 100%;
+  background: #1A1B21;
+}
+@media (max-width: 500px) {
+  .recent-post {
+    height: 1000px;
+    padding-top: 50px;
+    text-align: center;
+  }
+}
+.recent-post .footer-logo {
+  width: 45%;
+  margin: 0 auto;
+}
+.recent-post h1 {
+  margin-top: 40px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.recent-post h2 {
+  color: #767676;
+  margin-right: 10px;
+  margin-top: 30px;
+  font-size: 1.2rem;
+}
+.recent-post h2 .fa-angle-right {
+  padding-right: 5px;
+}
+h2:hover {
+  color: #ffffff;
+}
 .bg {
   width: 100%;
   height: 670px;
