@@ -169,7 +169,7 @@ table {
 }
 @media (max-width: 500px) {
   .recent-post {
-    height: 1000px;
+    height: 700px;
     padding-top: 50px;
     text-align: center;
   }
@@ -194,6 +194,11 @@ table {
 }
 h2:hover {
   color: #ffffff;
+}
+.soical-icons {
+  width: 100%;
+  height: 198px;
+  background: #121316;
 }
 .bg {
   width: 100%;
